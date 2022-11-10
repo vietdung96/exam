@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:controller="exam.HomeController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="195.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MENU">
+         <font>
+            <Font size="61.0" />
+         </font>
+      </Text>
+      <Button onAction="#gotoList" layoutX="210.0" layoutY="200.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="151.0" text="LIST STUDENT" />
+      <Button onAction="#gotoAdd" layoutX="210.0" layoutY="140.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="151.0" text="ADD STUDENT" />
+      <Button  layoutX="210.0" layoutY="257.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="151.0" text="SAVE" />
+      <Button  layoutX="206.0" layoutY="314.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="151.0" text="EXIT" />
+   </children>
+</Pane>
